@@ -31,6 +31,7 @@ namespace HelloWorld
         {
             this.btnClickThis = new System.Windows.Forms.Button();
             this.lblHelloWorld = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnClickThis
@@ -52,11 +53,21 @@ namespace HelloWorld
             this.lblHelloWorld.TabIndex = 1;
             this.lblHelloWorld.Text = "label1";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(78, 210);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(96, 15);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "By MNYA.TW";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.lblHelloWorld);
             this.Controls.Add(this.btnClickThis);
             this.Name = "Form1";
@@ -70,6 +81,7 @@ namespace HelloWorld
 
         private System.Windows.Forms.Button btnClickThis;
         private System.Windows.Forms.Label lblHelloWorld;
+        private System.Windows.Forms.Label label1;
     }
 }
 
